@@ -36,10 +36,12 @@ extern void led_yak(int renk)
 		case MOR: 
 		RGBPORT |= (1<<KIRMIZIPIN);
 		RGBPORT |= (1<<MAVIPIN);
+		break;
 		case BEYAZ: 
 		RGBPORT |= (1<<KIRMIZIPIN);
 		RGBPORT |= (1<<MAVIPIN);
 		RGBPORT |= (1<<YESILPIN);
+		break;
 		default:
 		break;
 	}
